@@ -1,0 +1,53 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="20.027692000000002">
+<testsuite name="advanced-workflow.spec.js" timestamp="2025-07-25T16:42:46.251Z" hostname="chromium" tests="2" failures="0" skipped="0" time="8.861" errors="0">
+<testcase name="高级工作流自动化测试 › 百度搜索Playwright并访问官网" classname="advanced-workflow.spec.js" time="5.771">
+<system-out>
+<![CDATA[🌐 访问百度首页...
+⌨️ 输入搜索关键词: playwright
+🔍 执行搜索...
+🎯 查找Playwright官网链接...
+✅ 找到Playwright官网链接
+📍 当前页面URL: https://www.baidu.com/s?rsv_idx=1&wd=Playwright%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3&fenlei=256&usm=5&ie=utf-8&rsv_pq=b8bbcf61003904ce&oq=playwright&rsv_t=e6faBYDLNYY9m0CP0lcr4pUtvNG%2BBLHEuNKBXhK5abarKeByiFBjAQT0udw&rfqid=b8bbcf61003904ce&rsv_dl=0_prs_28616_2&rq=playwright&rsf=101631101
+ℹ️ 未直接跳转到Playwright官网，可能需要手动确认
+✅ 工作流执行完成!
+📊 页面响应数量: 155
+
+[[ATTACHMENT|advanced-workflow-高级工作流自动化测试-百度搜索Playwright并访问官网-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="高级工作流自动化测试 › 简化版工作流 - 直接访问Playwright官网" classname="advanced-workflow.spec.js" time="3.09">
+<system-out>
+<![CDATA[🎯 直接访问Playwright官网...
+✅ 成功访问Playwright文档
+
+[[ATTACHMENT|advanced-workflow-高级工作流自动化测试-简化版工作流---直接访问Playwright官网-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="workflow-automation.spec.js" timestamp="2025-07-25T16:42:46.251Z" hostname="chromium" tests="1" failures="0" skipped="0" time="16.861" errors="0">
+<testcase name="录制的工作流自动化测试 › 执行工作流: Recorded Workflow" classname="workflow-automation.spec.js" time="16.861">
+<system-out>
+<![CDATA[页面日志: 无畏是青春的态度，热AI是时代的脉搏。
+各位新同学正以无畏的姿态奔赴通用人工智能的星辰大海！
+作为引领AI时代浪潮的主力军，广阔舞台，待你大展身手。
+乘风破浪，勇往直前，未来百度将与你一起，创造无限可能！
+
+页面日志: %c百度2026校园招聘简历投递：https://talent.baidu.com/jobs/list color:red
+页面日志: [GroupMarkerNotSet(crbug.com/242999)!:A0B02700DC7D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+页面日志: [GroupMarkerNotSet(crbug.com/242999)!:A0802700DC7D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+页面日志: 无畏是青春的态度，热AI是时代的脉搏。
+各位新同学正以无畏的姿态奔赴通用人工智能的星辰大海！
+作为引领AI时代浪潮的主力军，广阔舞台，待你大展身手。
+乘风破浪，勇往直前，未来百度将与你一起，创造无限可能！
+
+页面日志: %c百度2026校园招聘简历投递：https://talent.baidu.com/jobs/list color:red
+✅ 工作流执行完成
+
+[[ATTACHMENT|workflow-automation-录制的工作流自动化测试-执行工作流-Recorded-Workflow-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

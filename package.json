@@ -1,0 +1,31 @@
+{
+  "name": "playwright-workflow-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation scripts based on recorded workflow",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "install-browsers": "playwright install",
+    "workflow": "node src/workflow-runner.js",
+    "generate-report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "workflow"
+  ],
+  "author": "OKFred",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7"
+  }
+}

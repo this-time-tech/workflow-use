@@ -1,0 +1,127 @@
+{
+  "name": "Recorded Workflow",
+  "description": "Recorded on 2025/7/26 00:31:10",
+  "version": "1.0.0",
+  "input_schema": [],
+  "steps": [
+    {
+      "type": "navigation",
+      "timestamp": 1753461051027,
+      "tabId": 1827189548,
+      "url": "https://www.baidu.com/"
+    },
+    {
+      "type": "click",
+      "timestamp": 1753461052695,
+      "tabId": 1827189548,
+      "url": "https://www.baidu.com/",
+      "frameUrl": "https://www.baidu.com/",
+      "xpath": "id(\"kw\")",
+      "cssSelector": "input.s_ipt[id=\"kw\"][name=\"wd\"][autocomplete=\"off\"][placeholder=\"全国高考录取结果查询时间\"]",
+      "elementTag": "INPUT",
+      "elementText": ""
+    },
+    {
+      "type": "input",
+      "timestamp": 1753461054300,
+      "tabId": 1827189548,
+      "url": "https://www.baidu.com/",
+      "frameUrl": "https://www.baidu.com/",
+      "xpath": "id(\"kw\")",
+      "cssSelector": "input.s_ipt[id=\"kw\"][name=\"wd\"][autocomplete=\"off\"][placeholder=\"全国高考录取结果查询时间\"]",
+      "elementTag": "INPUT",
+      "value": "p"
+    },
+    {
+      "type": "input",
+      "timestamp": 1753461055736,
+      "tabId": 1827189548,
+      "url": "https://www.baidu.com/",
+      "frameUrl": "https://www.baidu.com/",
+      "xpath": "id(\"kw\")",
+      "cssSelector": "input.s_ipt.new-ipt-focus[id=\"kw\"][name=\"wd\"][autocomplete=\"off\"][placeholder=\"全国高考录取结果查询时间\"]",
+      "elementTag": "INPUT",
+      "value": "playwright"
+    },
+    {
+      "type": "key_press",
+      "timestamp": 1753461055964,
+      "tabId": 1827189548,
+      "url": "https://www.baidu.com/",
+      "frameUrl": "https://www.baidu.com/",
+      "key": "Enter",
+      "xpath": "id(\"kw\")",
+      "cssSelector": "input.s_ipt.new-ipt-focus[id=\"kw\"][name=\"wd\"][autocomplete=\"off\"][placeholder=\"全国高考录取结果查询时间\"]",
+      "elementTag": "INPUT"
+    },
+    {
+      "type": "click",
+      "timestamp": 1753461055965,
+      "tabId": 1827189548,
+      "url": "https://www.baidu.com/",
+      "frameUrl": "https://www.baidu.com/",
+      "xpath": "id(\"su\")",
+      "cssSelector": "input.bg.s_btn[type=\"submit\"][id=\"su\"]",
+      "elementTag": "INPUT",
+      "elementText": ""
+    },
+    {
+      "type": "scroll",
+      "timestamp": 1753461059458,
+      "tabId": 1827189548,
+      "targetId": 1,
+      "scrollX": 0,
+      "scrollY": 200,
+      "url": "https://www.baidu.com/"
+    },
+    {
+      "type": "scroll",
+      "timestamp": 1753461060291,
+      "tabId": 1827189548,
+      "targetId": 1,
+      "scrollX": 0,
+      "scrollY": 300,
+      "url": "https://www.baidu.com/"
+    },
+    {
+      "type": "navigation",
+      "timestamp": 1753461060789,
+      "tabId": 1827189548,
+      "url": "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=playwright&fenlei=256&rsv_pq=0x95a65bd40076af8b&rsv_t=374bCCLY%2FJeg7c3AhTj1KiSBWRAil1Mrc7e6vD7nX4WLJBIQKU0uxRfZo6ot&rqlang=en&rsv_dl=ib&rsv_enter=1&rsv_sug3=11&rsv_sug1=10&rsv_sug7=100&rsv_sug2=0&rsv_btype=i&inputT=1668&rsv_sug4=3268"
+    },
+    {
+      "type": "click",
+      "timestamp": 1753461061530,
+      "tabId": 1827189548,
+      "url": "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=playwright&fenlei=256&rsv_pq=0x95a65bd40076af8b&rsv_t=374bCCLY%2FJeg7c3AhTj1KiSBWRAil1Mrc7e6vD7nX4WLJBIQKU0uxRfZo6ot&rqlang=en&rsv_dl=ib&rsv_enter=1&rsv_sug3=11&rsv_sug1=10&rsv_sug7=100&rsv_sug2=0&rsv_btype=i&inputT=1668&rsv_sug4=3268",
+      "frameUrl": "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=playwright&fenlei=256&rsv_pq=0x95a65bd40076af8b&rsv_t=374bCCLY%2FJeg7c3AhTj1KiSBWRAil1Mrc7e6vD7nX4WLJBIQKU0uxRfZo6ot&rqlang=en&rsv_dl=ib&rsv_enter=1&rsv_sug3=11&rsv_sug1=10&rsv_sug7=100&rsv_sug2=0&rsv_btype=i&inputT=1668&rsv_sug4=3268",
+      "xpath": "id(\"5\")/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]/div[1]/p[1]",
+      "cssSelector": "p._paragraph_1g9za_2.cu-line-clamp-default.cu-line-clamp-1.md.sc-paragraph",
+      "elementTag": "P",
+      "elementText": "...reliable end-to-end testing for modern web apps | Playwright"
+    },
+    {
+      "type": "navigation",
+      "timestamp": 1753461061687,
+      "tabId": 1827189554,
+      "url": "https://www.baidu.com/link?url=fak2pAH4HI6_1Cg7n5vbwbZqXA3oUisee2RKpLndT1rAAAy-UZ_eeiBDDdpryQ4x&wd=&eqid=d8bfadcf006d6eca000000046883b140"
+    },
+    {
+      "type": "navigation",
+      "timestamp": 1753461062836,
+      "tabId": 1827189554,
+      "url": "https://playwright.dev/"
+    },
+    {
+      "type": "click",
+      "timestamp": 1753461067361,
+      "tabId": 1827189554,
+      "url": "https://playwright.dev/",
+      "frameUrl": "https://playwright.dev/",
+      "xpath": "id(\"__docusaurus_skipToContent_fallback\")/header[1]/div[1]/div[1]/a[1]",
+      "cssSelector": "a.getStarted_Sjon[href=\"/docs/intro\"]",
+      "elementTag": "A",
+      "elementText": "Get started"
+    }
+  ]
+}
