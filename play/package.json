@@ -25,7 +25,5 @@
     "@playwright/test": "^1.40.0"
   },
   "dependencies": {
-    "fs-extra": "^11.1.1",
-    "path": "^0.12.7"
   }
 }
